@@ -69,9 +69,26 @@
     
 
 
-a = input("Enter the temperature :")
+# a = input("Enter the temperature :")
 
-if a < 0 :
-        print("Freezing cold")
-elif a         
+# if a < 0 :
+#         print("Freezing cold")
+# elif a         
 
+# a = range(100,1,-1)
+
+# for i in a :
+#     print(i)
+
+
+# a = int(input("Enter the table u want ? : "))
+
+# for i in range(a,(a*10)+1,a):
+#         print(i)
+
+
+a = "GAURAV KUMAR IS A GOOD BOY"
+print(len(a))
+
+for i in range(len(a)):
+  print(a[i])
