@@ -1,6 +1,6 @@
 # 12. Factorial of a number
 
-a = int(input("Enter the number to get the factorial : "))
+a = int(input("Enter the number to get the factorial : "))   
 b = 1
 
 if a < 0:
