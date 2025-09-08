@@ -17,3 +17,4 @@ for ch in  a:
 print("Letters:", letters)
 print("Digits:", number)
 print("Symbols:", symbol)
+
