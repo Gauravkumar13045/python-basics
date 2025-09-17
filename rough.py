@@ -87,8 +87,25 @@
 #         print(i)
 
 
-a = "GAURAV KUMAR IS A GOOD BOY"
-print(len(a))
+# 
+   
+class Animal:
+    def __init__(self,name):
+        self.name = name
 
-for i in range(len(a)):
-  print(a[i])
+    def show(self):
+        print(f"hello your name is {self.name}")
+
+
+
+class Human(Animal):
+    pass
+
+
+animal2 = Animal("Cheetah")
+person2 = Human("akarsh")
+
+person2.show()
+animal2.show()
+
+
