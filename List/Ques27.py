@@ -11,7 +11,7 @@ d = int(input("Enter the number d: "))
 
 lister = [a, b, c, d]
 
-# Use sorted() to compare with original list
+
 if lister == sorted(lister):
     print("Sorted")
 else:
